@@ -1,0 +1,24 @@
+html{
+  background-color: #9b5de5;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.animes-list{
+  color: white;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(
+    auto-fit, 
+    minmax(200px,1fr)
+  );
+  grid-gap: 1.5rem;
+}
+
+.animes-list img {
+  max-width: 100%;
+}
